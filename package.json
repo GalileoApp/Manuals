@@ -1,0 +1,17 @@
+{
+  "name": "manuals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build_ios": "gitbook build ./iOSManual",
+    "serve_ios": "gitbook serve ./iOSManual",
+    "build_android": "gitbook build ./AndroidManual",
+    "serve_android": "gitbook serve ./AndroidManual"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@gitbook-ng/gitbook": "file:gitbook"
+  }
+}

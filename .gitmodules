@@ -1,0 +1,9 @@
+[submodule "iOSManual"]
+	path = iOSManual
+	url = git@github.com:GalileoApp/iOSManual.git
+[submodule "AndroidManual"]
+	path = AndroidManual
+	url = git@github.com:GalileoApp/AndroidManual.git
+[submodule "gitbook"]
+	path = gitbook
+	url = git@github.com:molind/gitbook.git
